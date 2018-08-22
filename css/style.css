@@ -1,0 +1,330 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+p {
+  line-height: 2rem;
+  font-family: 'Armata', sans-serif;
+
+}
+
+h3 {
+  font-family: 'Sunflower', sans-serif;
+  color: #0f3a5a;
+  text-shadow: 2px 2px 2px #cfd8df;
+
+
+}
+.image-rotation {
+  font-family: 'Sunflower', sans-serif;
+  text-shadow: 1px 1px 1px bisque, 0 0 25px rgb(197, 216, 216), 0 0 5px turquoise;
+
+}
+h2 {
+  text-align: center;
+  display: block;
+  font-family: 'Armata', sans-serif;
+  color: darkslategrey;
+  text-shadow: 2px 2px 1px rgb(65, 107, 107);
+  
+}
+
+h5 {
+  font-family: 'Armata', sans-serif;
+  color: #EEDFCC;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+
+
+
+/* mouse over link */
+a:hover {
+  color: whitesmoke;
+}
+
+
+
+#treatment {
+  color: #2f3031;
+  text-shadow: 2px 2px 2px white;
+  font-weight:bold;
+  font-display: block;
+  font-family: 'Armata', sans-serif;
+}
+
+.sidenav-trigger {
+  color: #333a39;
+}
+
+.parallax-container {
+  min-height: 380px;
+  max-height:380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(240, 240, 240, 0.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.nav-wrapper {
+  background-color: #86A9A8;
+  font-family: 'Armata', sans-serif;
+  font-size: xx-large;
+
+}
+
+
+.right hide-on-med-and-down a:hover
+  {
+    font-size: x-large; 
+    border: none;
+    outline: none;
+    color: #ffe6cc;
+    padding: 14px 16px;
+    font-family:  'Armata', sans-serif; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  .navbar-fixed a:hover{
+     background-color: #fff2e6;
+     color: #000;
+  }
+
+
+  .header {
+    text-align: center;
+  }
+
+  * {box-sizing: border-box}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  
+  #one {
+    z-index: 1;
+    align-self: auto;
+  }
+
+  #hydrainfo {
+    z-index:2;
+  }
+
+ 
+  #prpimage {
+    float:right;
+  }
+  #prpone {
+    max-width:700px;
+    float:left;
+    padding-left: 40px;
+  }
+
+  #prptwo {
+    float:left;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .clearfix {
+    overflow: auto;
+}
+
+#containerabout {
+  float: left;
+  max-width: 500px;
+  padding-left: 10px;
+}
+
+#aboutimg {
+  float:right;
+}
+
+h2 {
+  align-content: center;
+}
+
+#kybcontainer {
+  padding-left: 40px;
+}
+
+#kybheader {
+  align-content: center;
+}
+
+#derm-header {
+  text-align: center;
+  font-weight: bold;
+  border-style: solid grey;
+}
+
+.paragraph {
+
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10%;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  display: block;
+  justify-content: center;
+  border-style: solid;
+  border-color: #717171;
+
+}
+
+
+body {
+  background-image: url("../images/dust_scratches.png");
+  background-repeat: repeat;
+
+}
+
+#dermal-list {
+  display: list-item;
+  list-style-type: none;
+  text-align: center;
+}
+
+#dermimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+#chemical {
+  border: solid;
+}
+
+#slide1 {
+  opacity: .5;
+}
+ 
+
+
+
+ .text {
+   margin-left: 20px;
+   margin-right: 20px;
+
+ }
+
+ .caption right-align {
+   margin: 20px;
+   margin-top: 15px;
+ }
+
