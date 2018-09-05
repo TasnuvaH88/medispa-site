@@ -24,12 +24,21 @@ h3 {
   text-shadow: 1px 1px 1px bisque, 0 0 25px rgb(197, 216, 216), 0 0 5px turquoise;
 
 }
-h2 {
+#header-banner {
   text-align: center;
   display: block;
   font-family: 'Armata', sans-serif;
-  color: darkslategrey;
+  color: rgb(200, 221, 221);
   text-shadow: 2px 2px 1px rgb(65, 107, 107);
+  
+}
+
+h2 {
+  text-align: center;
+  display: block;
+  font-family: 'Sunflower', sans-serif;
+  color: #86A9A8;
+  text-shadow: 2px 2px 1px #0f3a5a;
   
 }
 
