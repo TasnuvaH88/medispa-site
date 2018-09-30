@@ -14,7 +14,7 @@ p {
 
 h3 {
   font-family: 'Sunflower', sans-serif;
-  color: #0f3a5a;
+  color: #000000;
   text-shadow: 2px 2px 2px #cfd8df;
 }
 
@@ -31,7 +31,7 @@ h3 {
   display: block;
   font-family: 'Armata', sans-serif;
   color: rgb(200, 221, 221);
-  text-shadow: 2px 2px 1px rgb(65, 107, 107);
+  text-shadow: 2px 2px 1px #000000;
   
 }
 
@@ -345,4 +345,29 @@ body {
 #hydra-img {
   width: 90%;
   height: auto;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }
