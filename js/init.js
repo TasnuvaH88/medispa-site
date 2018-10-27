@@ -1,9 +1,6 @@
-(function($){
-  $(function(){
-    
-    $('.sidenav').sidenav();
+$(document).ready(function(){
     $('.parallax').parallax();
+    $('.sidenav').sidenav();
     $(".dropdown-trigger").dropdown();
     $('.slider').slider();
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+  }); // end of document reaay

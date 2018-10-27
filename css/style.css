@@ -5,6 +5,17 @@
  *
  * Made By MaterializeCSS.com
  */
+#top {
+  border: solid 1px;
+  border-color: #bbb;
+ margin: 20px;
+ padding: 10px;
+ padding-left: 10px;
+ padding-right: 10px;
+ display: block;
+ background-color: white;
+ opacity: 80%;
+}
 
 p {
   line-height: 2rem;
@@ -12,16 +23,25 @@ p {
 
 }
 
+#chem {
+  margin: 20px;
+}
 h3 {
   font-family: 'Sunflower', sans-serif;
-  color: #000000;
-  text-shadow: 2px 2px 2px #cfd8df;
+  color: #1b232c;
+  text-shadow: 2px 1px 1px #6194cf;
+}
+
+.sliderfont {
+  color: black;
+  text-shadow: 1px .5px .5px #86A9A8;
 }
 
 
 .image-rotation {
   font-family: 'Sunflower', sans-serif;
-  text-shadow: 1px 1px 1px bisque, 0 0 25px rgb(197, 216, 216), 0 0 5px turquoise;
+  color: #333a39 ;
+  text-shadow: 1px 1px 1px rgb(45, 61, 61), 0 0 25px rgb(197, 216, 216), 0 0 5px rgb(65, 88, 86);
 
 }
 
@@ -29,9 +49,11 @@ h3 {
 #header-banner {
   text-align: center;
   display: block;
-  font-family: 'Armata', sans-serif;
-  color: rgb(200, 221, 221);
-  text-shadow: 2px 2px 1px #000000;
+  font-family: 'Niramit', sans-serif;
+  color:#91a3b0;
+  font-size: xx-large;
+  padding: 10px;
+  margin: 10px;
   
 }
 
@@ -40,14 +62,16 @@ h2 {
   display: block;
   font-family: 'Sunflower', sans-serif;
   color: #86A9A8;
-  text-shadow: 2px 2px 1px #0f3a5a;
+}
+
+.page {
+  color: #86A9A8;
   
 }
 
 h5 {
   font-family: 'Armata', sans-serif;
   color: #EEDFCC;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 
@@ -56,7 +80,7 @@ h5 {
 
 /* mouse over link */
 a:hover {
-  color: whitesmoke;
+  color: rgb(53, 79, 83);
 }
 
 
@@ -102,7 +126,7 @@ a:hover {
 }
 
 .nav-wrapper {
-  background-color: #86A9A8;
+  background-color:#cd7f32 ;
   font-family: 'Armata', sans-serif;
   font-size: xx-large;
 
@@ -194,14 +218,13 @@ a:hover {
     width: 15px;
     margin: 0 2px;
     background-color: #bbb;
+    color: #5d8aa8;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
   }
   
-  .active, .dot:hover {
-    background-color: #717171;
-  }
+  
   
   /* Fading animation */
   .fade {
@@ -324,12 +347,6 @@ body {
   border: solid;
 }
 
-#slide1 {
-  opacity: .5;
-}
- 
-
-
 
  .text {
    margin-left: 20px;
@@ -370,4 +387,36 @@ body {
 
   /* Support for IE. */
   font-feature-settings: 'liga';
+}
+
+.stuff-showcase
+{
+  list-style:none;
+  width:auto;
+}
+
+.stuff-showcase li 
+{
+    display:block;
+    width:25%;
+    float:left;
+}
+
+.stuff-photo {
+    width:auto;
+    margin:0;
+    height:auto;
+    overflow:hidden;
+}
+
+.stuff-photo img {
+    width:auto;
+    height:auto;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+}
+
+.stuff-photo img:hover 
+{
+    transform: scale(1.05);
 }
