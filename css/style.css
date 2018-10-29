@@ -409,6 +409,16 @@ body {
     overflow:hidden;
 }
 
+.stuff-photo .content {
+  position: absolute;
+  bottom: 2px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */
+}
+
 .stuff-photo img {
     width:auto;
     height:auto;
