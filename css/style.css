@@ -389,44 +389,8 @@ body {
   font-feature-settings: 'liga';
 }
 
-.stuff-showcase
-{
-  list-style:none;
-  width:auto;
-}
 
-.stuff-showcase li 
-{
-    display:block;
-    width:25%;
-    float:left;
-}
 
-.stuff-photo {
-    width:auto;
-    margin:0;
-    height:auto;
-    overflow:hidden;
-}
-
-.stuff-photo .content {
-  position: absolute;
-  bottom: 2px;
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
-  padding: 5px; /* Some padding */
-}
-
-.stuff-photo img {
-    width:auto;
-    height:auto;
-    transform: scale(1.15);
-    transition: transform 0.5s;
-}
-
-.stuff-photo img:hover 
-{
-    transform: scale(1.05);
+#bannerimage {
+  opacity: 60%;
 }
