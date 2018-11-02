@@ -1,6 +1,8 @@
 $(document).ready(function(){
+  $('.slider').slider();
     $('.parallax').parallax();
-    $('.sidenav').sidenav();
+    
     $(".dropdown-trigger").dropdown();
-    $('.slider').slider();
+    
+    $('.sidenav').sidenav();
   }); // end of document reaay
