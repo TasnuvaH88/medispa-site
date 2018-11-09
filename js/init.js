@@ -1,8 +1,10 @@
 $(document).ready(function(){
-  $('.slider').slider();
+  $('.slider').slider(); 
+  $(".dropdown-trigger").dropdown({hover: true});
+  $('.sidenav').sidenav();
+  $(".button-collapse").sideNav();
   $('.parallax').parallax();
-  
- $(".dropdown-trigger").dropdown();
+
+ 
     
-    $('.sidenav').sidenav();
   }); // end of document reaay
