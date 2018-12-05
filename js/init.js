@@ -1,9 +1,11 @@
 $(document).ready(function(){
   $('.slider').slider(); 
-  $(".dropdown-trigger").dropdown({hover: true});
+  $(".dropdown-trigger").dropdown(
+    {hover: true});
   $('.sidenav').sidenav();
-  $(".button-collapse").sideNav();
   $('.parallax').parallax();
+  $(".button-collapse").sideNav();
+
 
  
     

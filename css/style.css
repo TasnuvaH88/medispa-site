@@ -404,4 +404,77 @@ header, main, footer {
     padding-left: 0;
   }
 }
+
+
       
+.row1 {
+  margin: auto;
+  max-width: 1400px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.row2 {
+  margin: auto;
+  max-width: 1400px;
+  flex-wrap: wrap;
+}
+
+.row3 {
+  margin: auto;
+  max-width: 1400px;
+  flex-wrap: wrap;
+}
+
+.row4 {
+  margin: auto;
+  max-width: 1400px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 900px) {
+  .row1 {
+  display: flex;
+  justify-content: space-between;
+   }
+  .row2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .row3 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .row4 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.flex1 {
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  flex-basis: 30%;
+}
+
+.flex2 {
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  flex-basis: 30%;
+}
+
+.flex3 {
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  flex-basis: 30%;
+}
+
+.flex4 {
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  flex-basis: 22.5%;
+}
