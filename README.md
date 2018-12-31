@@ -1,2 +1,2 @@
-# Concept site
-Goal here was to practice design and CSS skills, in the future will convert to Drupal for content management
+# Company site
+Goal here was to focus on design. Built according to client specifications. Will convert to React and fix hamburger menu issue. 
